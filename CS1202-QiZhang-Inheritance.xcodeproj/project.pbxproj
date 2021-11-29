@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6D92B7C7275482E000BD957E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D92B7C6275482E000BD957E /* main.cpp */; };
+		6D92B7CF27548A4A00BD957E /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D92B7CE27548A4A00BD957E /* Vehicle.cpp */; };
+		6D92B7D227548CF200BD957E /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D92B7D027548CF200BD957E /* Car.cpp */; };
+		6D92B7D52754916600BD957E /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D92B7D32754916600BD957E /* Truck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		6D92B7C3275482E000BD957E /* CS1202-QiZhang-Inheritance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS1202-QiZhang-Inheritance"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D92B7C6275482E000BD957E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6D92B7CD275484DF00BD957E /* Vehicle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = Vehicle.h; sourceTree = "<group>"; };
+		6D92B7CE27548A4A00BD957E /* Vehicle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		6D92B7D027548CF200BD957E /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		6D92B7D127548CF200BD957E /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		6D92B7D32754916600BD957E /* Truck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
+		6D92B7D42754916600BD957E /* Truck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Truck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				6D92B7C6275482E000BD957E /* main.cpp */,
+				6D92B7CD275484DF00BD957E /* Vehicle.h */,
+				6D92B7CE27548A4A00BD957E /* Vehicle.cpp */,
+				6D92B7D027548CF200BD957E /* Car.cpp */,
+				6D92B7D32754916600BD957E /* Truck.cpp */,
+				6D92B7D42754916600BD957E /* Truck.hpp */,
+				6D92B7D127548CF200BD957E /* Car.hpp */,
 			);
 			path = "CS1202-QiZhang-Inheritance";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D92B7D227548CF200BD957E /* Car.cpp in Sources */,
+				6D92B7CF27548A4A00BD957E /* Vehicle.cpp in Sources */,
 				6D92B7C7275482E000BD957E /* main.cpp in Sources */,
+				6D92B7D52754916600BD957E /* Truck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
